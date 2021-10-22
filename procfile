@@ -1,0 +1,1 @@
+web: gunicorn CryptoSafe:app --log-file -
