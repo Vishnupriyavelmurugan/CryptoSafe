@@ -1,4 +1,4 @@
-mkdir -p ~/.CryptoSafe/
+mkdir -p ~/.streamlit/
 
 echo "\
 [server]\n\
@@ -6,4 +6,4 @@ headless = true\n\
 port = $PORT\n\
 enableCORS = false\n\
 \n\
-" > ~/.CryptoSafe/config.toml
+" > ~/.streamlit/config.toml
