@@ -1,1 +1,1 @@
-web: gunicorn CryptoSafe:app --log-file -
+web: sh setup.sh && CrptoSafe run CryptoSafe.py
